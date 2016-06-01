@@ -1,0 +1,38 @@
+{
+  "name": "udp-socket-chat",
+  "version": "1.0.1",
+  "description": "Very simple udp chat",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron main.js",
+    "postinstall": "install-app-deps",
+    "pack": "build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mtumirea/it-2kurs-2sem-tp-socket-chat-udp"
+  },
+  "keywords": [
+    "Electron",
+    "quick",
+    "start",
+    "tutorial"
+  ],
+  "author": "anon",
+  "license": "see LICENSE && no commerce",
+  "bugs": {
+    "url": "https://github.com/mtumirea/it-2kurs-2sem-tp-socket-chat-udp/issues"
+  },
+  "homepage": "https://github.com/mtumirea/it-2kurs-2sem-tp-socket-chat-udp#readme",
+  "devDependencies": {
+    "electron-builder": "^3.25.0",
+    "electron-prebuilt": "^1.2.0"
+  },
+  "dependencies": {},
+  "build": {
+    "asar": true,
+    "app-bundle-id": "your.id",
+    "app-category-type": "your.app.category.type",
+    "iconUrl": "see https://github.com/develar/electron-builder#in-short"
+  }
+}
